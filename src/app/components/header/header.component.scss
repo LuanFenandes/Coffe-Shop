@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Rosarivo&display=swap');
+
 .form {
     position: relative
 }
@@ -26,4 +28,33 @@
 .form-input:focus {
     box-shadow: none;
     border: none
+}
+
+.notification {
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    background: #AC8F64;
+}
+
+.icon-notification{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.paragraph-requests {
+    font-family: 'Rosarivo', serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px;
+    text-align: center;
+}
+
+.cart-notification {
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    background: rgba(205, 65, 38, 0.8);
 }
