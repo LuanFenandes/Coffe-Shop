@@ -1,0 +1,22 @@
+.card {
+    background: #FFFFFF;
+    border: 5px solid #AC8F64;
+    box-sizing: border-box;
+    box-sizing: border-box;
+    box-shadow: -4px -4px 10px rgba(246, 246, 246, 0.5), 4px 4px 30px rgba(0, 0, 0, 0.1);
+    border-radius: 30px;
+}
+
+.card-img-top {
+    padding: 10px 10px;
+}
+
+.card-title {
+    border: solid 1px red;
+    padding: 15px;
+}
+
+.btn {
+    display: flex;
+    justify-content: center;
+}
